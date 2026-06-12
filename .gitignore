@@ -1,0 +1,42 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+dist/
+build/
+*.min.js
+*.min.css
+
+# Logs
+logs/
+*.log
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
+
+# Supabase
+.supabase/
+
+# n8n
+.n8n/
+
+# Datos sensibles
+credentials.json
+secrets/
+*.key
